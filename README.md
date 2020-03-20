@@ -197,7 +197,7 @@ $servers->setValue('server','base',array('dc=edt,dc=org'));
 __7. Un cop configurat el php, anem a la maquina local i creem un tunnel ssh directe del hostlocal pasant pel hostdesti(aws) redireccionat a 172.18.0.2:80 del docker d'Amazon.__
 
 ```
-[gustavo@localhost ~]$ ssh -i ~/.ssh/jupiter.pem -L 7000:172.18.0.2:80 fedora@35.178.176.81
+[gustavo@localhost ~]$ ssh -i ~/.ssh/jupiter.pem -L 5000:172.18.0.2:80 fedora@35.178.176.81
 ```
 
 __8. Comprovació de que podem accedir al phpldapadmin.__  
